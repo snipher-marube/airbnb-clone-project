@@ -53,7 +53,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 ---
 
-## Main Features
+## Feature Breakdown
 - **User Registration and Authentication**: Secure user sign-up and login processes.
 - **Property Listings**: Create, update, and manage property listings with images and descriptions.
 - **Booking Management**: Users can book properties, view their bookings, and manage reservations.
@@ -64,6 +64,8 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Notifications**: Users receive notifications for booking confirmations, cancellations, and new reviews.
 - **Analytics**: Basic analytics for property owners to track bookings and reviews.
 - **Responsive Design**: API designed to support various client applications (web, mobile).
+
+---
 
 ## 🛠️ Features Overview
 
