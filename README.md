@@ -15,6 +15,56 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 ---
 
+## Dabase Design
+- **Users Table**: Stores user information, including authentication details.
+- **Properties Table**: Contains property listings with details like location, price, and availability.
+- **Bookings Table**: Manages booking records, including user IDs, property IDs, and booking dates.
+- **Payments Table**: Records payment transactions related to bookings.
+- **Reviews Table**: Stores user reviews and ratings for properties.
+- **Relationships**:
+  - One-to-Many: Users to Properties, Users to Bookings, Properties to Reviews.
+  - Many-to-Many: Users to Bookings (through a join table).
+- **Indexes**: Optimized for fast retrieval of frequently accessed data, such as user profiles and property listings.
+- **Caching**: Implemented to reduce database load and improve performance.
+- **Data Integrity**: Enforced through foreign key constraints and validation rules.
+- **Backup and Recovery**: Regular backups and a recovery plan to prevent data loss.
+- **Security**: Sensitive data encrypted and access controlled through authentication mechanisms.
+- **Scalability**: Designed to handle increased load and data growth through horizontal scaling and sharding.
+- **Monitoring**: Tools in place to monitor database performance and identify bottlenecks.
+- **Documentation**: Comprehensive documentation for database schema and relationships.
+- **Testing**: Unit tests and integration tests to ensure data integrity and functionality.
+- **Version Control**: Database schema changes tracked through version control for easy rollback and collaboration.
+- **Migration Scripts**: Automated scripts for database migrations to ensure smooth transitions between versions.
+- **Data Anonymization**: Techniques for anonymizing sensitive data in non-production environments.
+- **Data Archiving**: Strategies for archiving old data to maintain performance and manage storage costs.
+- **Data Retention Policies**: Defined policies for data retention and deletion to comply with regulations.
+- **Data Auditing**: Mechanisms for auditing data changes and tracking user actions.
+- **Data Warehousing**: Consideration for data warehousing solutions for analytics and reporting.
+- **Data Modeling**: Use of Entity-Relationship Diagrams (ERDs) to visualize database structure and relationships.
+- **Data Migration**: Strategies for migrating data from legacy systems or other databases.
+- **Data Normalization**: Ensured data normalization to reduce redundancy and improve data integrity.
+- **Data Denormalization**: Considered denormalization for performance optimization in read-heavy scenarios.
+- **Data Partitioning**: Techniques for partitioning large tables to improve performance and manageability.
+- **Data Compression**: Implemented data compression techniques to reduce storage costs and improve performance.
+- **Data Encryption**: Used encryption techniques to protect sensitive data at rest and in transit.
+- **Data Masking**: Techniques for masking sensitive data in non-production environments.
+- **Data Governance**: Established data governance policies to ensure data quality and compliance.
+- **Data Quality**: Implemented data quality checks and validation rules to ensure data accuracy and consistency.
+
+---
+
+## Main Features
+- **User Registration and Authentication**: Secure user sign-up and login processes.
+- **Property Listings**: Create, update, and manage property listings with images and descriptions.
+- **Booking Management**: Users can book properties, view their bookings, and manage reservations.
+- **Payment Integration**: Secure payment processing for bookings.
+- **Review System**: Users can leave reviews and ratings for properties they have booked.
+- **Search and Filter**: Users can search for properties based on various criteria (location, price, etc.).
+- **Admin Dashboard**: Admin interface for managing users, properties, bookings, and reviews.
+- **Notifications**: Users receive notifications for booking confirmations, cancellations, and new reviews.
+- **Analytics**: Basic analytics for property owners to track bookings and reviews.
+- **Responsive Design**: API designed to support various client applications (web, mobile).
+
 ## 🛠️ Features Overview
 
 ### 1. API Documentation
