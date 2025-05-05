@@ -67,6 +67,27 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 ---
 
+## API Security
+- **Authentication**: JWT (JSON Web Tokens) for secure user authentication.
+- **Authorization**: Role-based access control to restrict access to certain endpoints.
+- **Data Validation**: Input validation to prevent SQL injection and other attacks.
+- **Rate Limiting**: Implemented to prevent abuse of the API.
+- **CORS**: Cross-Origin Resource Sharing configured to allow requests from trusted domains.
+- **HTTPS**: Enforced to secure data in transit.
+- **Logging**: Detailed logging of API requests and responses for monitoring and debugging.
+- **Error Handling**: Comprehensive error handling to provide meaningful responses to clients.
+- **Input Sanitization**: Ensured to prevent XSS (Cross-Site Scripting) attacks.
+- **Session Management**: Secure session management to prevent session hijacking.
+- **Data Encryption**: Sensitive data encrypted at rest and in transit.
+- **Backup and Recovery**: Regular backups and a disaster recovery plan in place.
+- **Monitoring**: Tools for monitoring API performance and detecting anomalies.
+- **Testing**: Automated tests for security vulnerabilities and performance.
+- **Documentation**: Comprehensive API documentation for developers.
+- **Versioning**: API versioning to ensure backward compatibility.
+- **Deprecation Policy**: Clear policy for deprecating old API versions.
+- **Compliance**: Adherence to industry standards and regulations (e.g., GDPR, PCI DSS).
+- **Incident Response**: Established incident response plan for security breaches.
+
 ## 🛠️ Features Overview
 
 ### 1. API Documentation
